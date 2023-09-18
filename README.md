@@ -1,9 +1,9 @@
-# IreshProject
+# MOVIE
 
 # Technical Docs: 
 
 1.	Open a terminal or command prompt and navigate to the directory. Then run following command
-Git clone https://github.com/Iresh13/IreshProject.git.
+Git clone https://github.com/Iresh13/Movie.git from dev branch.
 
 2.	Install the dependencies from packages.json file. Run the command: 
 Yarn install or npm install
@@ -11,28 +11,20 @@ Yarn install or npm install
 pod install
 
 
-# Design link:
-https://www.figma.com/file/cf5FGjcmxA97uNTgXNerxI/Untitled?type=design&node-id=0%3A1&mode=design&t=8TFHo3G3Z1ozXAUJ-1
-
-
 # Features: 
 
-Press the add fab button which shows menu to add picture from gallery or add image from camera. The app asks for the permission to add from an image or gallery at initial press.
-Once an image has been added, click it to view it. To zoom in or zoom out the image's size, use the pinch gesture. Pressing the edit fab button displays a menu with options to add from gallery and add picture from camera, allowing you to edit the image and reselect it. Press the delete icon to remove the image, which causes an alert modal to appear. 
-
-Long pressing an image allows to select multiple images then pressing the delete icon to delete them all brings up an alert modal.
-
+The app initially shows all the list of Tom Cruise movies. When the user press on the movie tile the app navigates to the details of the movie. The user can user the search FAB button to perform filtered search. The app provides date and ratings as filter options. Also user can type the name of the movie to search the movie. The movie list is displayed as it is filtered.
 
 
 # Packages installed: 
 
-React native gesture handler: It offers a collection of pre-made gesture components that may be used to detect and react to a variety of touch motions, including pinching, rotating, tapping, and swiping.
+Axios: Axios is a promise-based HTTP Client for React Native apps and the browser. 
 
-React native Image crop picker: The react-native-image-crop-picker library in React Native offers functionality for picking and cropping photos taken with the device's camera or gallery.
+Moment: Moment.js is a library for parsing, formatting, and manipulating dates and times in JavaScript.
+
+Redux-toolkit: Redux Toolkit is a library that simplifies and streamlines the usage of Redux, a state management library for React applications. 
 
 React native navigation: React native navigation allows to create native navigational components, handle navigation between screens, and manage the navigation with native performance.
-
-**React native permissions:**  React-native-permissions is a well-liked module for managing permissions. It offers an interface to request and manage permissions from the underlying platforms.
 
 React native reanimated: It is used to create fast and fluid animations in React Native applications.
 
@@ -44,4 +36,4 @@ Redux-persist: Redux Persist is a library that enables persistent storing and re
 
 Redux: Redux is used to centrally and predictably manage application state. It offers a dependable state container as well as a set of guidelines for controlling data flow inside an application.
 
-![image](https://github.com/Iresh13/IreshProject/assets/26948046/36e0f61b-37b4-40bd-a4e0-321210b427b5)
+
