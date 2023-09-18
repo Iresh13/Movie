@@ -1,0 +1,6 @@
+module Pods_IreshProject {
+  umbrella header "Pods-IreshProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ireshproject.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.ireshproject.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ireshproject.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.ireshproject.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/drawable_rn_edit_text_material.xml.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ireshproject.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.ireshproject.app-main-40:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/iresh13/.gradle/daemon/7.5.1/com.ireshproject.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.ireshproject.app-merged_res-38:/drawable_icon.png.flat",
+        "source": "com.ireshproject.app-main-40:/drawable/icon.png"
+    },
+    {
+        "merged": "com.ireshproject.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.ireshproject.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.ireshproject.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.ireshproject.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+    }
+]

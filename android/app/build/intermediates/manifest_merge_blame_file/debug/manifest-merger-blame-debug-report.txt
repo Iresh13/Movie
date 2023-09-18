@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ireshproject"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/debug/AndroidManifest.xml:5:22-75
+12
+13    <uses-feature
+13-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:3:5-5:36
+14        android:name="android.hardware.camera"
+14-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:4:9-47
+15        android:required="false" />
+15-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:5:9-33
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:7:5-67
+17-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:7:22-64
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:8:5-65
+18-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:8:22-62
+19    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+19-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:9:3-78
+19-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:9:20-75
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:10:5-76
+20-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:10:22-73
+21    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+21-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:11:3-73
+21-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:11:20-70
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:12:4-79
+22-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:12:21-76
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:13:6-82
+23-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:13:23-79
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[com.facebook.flipper:flipper:0.182.0] /Users/iresh13/.gradle/caches/transforms-3/8cf584bd3c972df0fa2ad57b70bebf1c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:5-76
+24-->[com.facebook.flipper:flipper:0.182.0] /Users/iresh13/.gradle/caches/transforms-3/8cf584bd3c972df0fa2ad57b70bebf1c/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:16:22-73
+25
+26    <queries>
+26-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+27        <intent>
+27-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+28            <action android:name="android.media.action.IMAGE_CAPTURE" />
+28-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-73
+28-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-70
+29        </intent>
+30    </queries>
+31
+32    <application
+32-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:15:5-34:19
+33        android:name="com.ireshproject.MainApplication"
+33-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:16:7-38
+34        android:allowBackup="false"
+34-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:20:7-34
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.7.0] /Users/iresh13/.gradle/caches/transforms-3/afc0d887207604f8581ade8804352436/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:icon="@mipmap/ic_launcher"
+37-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:18:7-41
+38        android:label="@string/app_name"
+38-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:17:7-39
+39        android:roundIcon="@mipmap/ic_launcher"
+39-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:19:7-46
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme"
+41-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:21:7-38
+42        android:usesCleartextTraffic="true" >
+42-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/debug/AndroidManifest.xml:8:9-44
+43        <activity
+43-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/debug/AndroidManifest.xml:11:9-111
+44            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+44-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/debug/AndroidManifest.xml:11:19-83
+45            android:exported="false" />
+45-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/debug/AndroidManifest.xml:11:84-108
+46        <activity
+46-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:22:7-33:18
+47            android:name="com.ireshproject.MainActivity"
+47-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:23:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+48-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:25:9-118
+49            android:exported="true"
+49-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:28:9-32
+50            android:label="@string/app_name"
+50-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:24:9-41
+51            android:launchMode="singleTask"
+51-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:26:9-40
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:27:9-51
+53            <intent-filter>
+53-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:29:9-32:25
+54                <action android:name="android.intent.action.MAIN" />
+54-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:30:13-65
+54-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:30:21-62
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:31:13-73
+56-->/Users/iresh13/RN/Iresh/IreshProject/android/app/src/main/AndroidManifest.xml:31:23-70
+57            </intent-filter>
+58        </activity>
+59
+60        <provider
+60-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-24:20
+61            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+61-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-94
+62            android:authorities="com.ireshproject.provider"
+62-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-60
+63            android:exported="false"
+63-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+64            android:grantUriPermissions="true" >
+64-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-47
+65            <meta-data
+65-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:78
+66                android:name="android.support.FILE_PROVIDER_PATHS"
+66-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
+67                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+67-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-75
+68        </provider>
+69
+70        <activity
+70-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:72
+71            android:name="com.yalantis.ucrop.UCropActivity"
+71-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-60
+72            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+72-->[:react-native-image-crop-picker] /Users/iresh13/RN/Iresh/IreshProject/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-69
+73
+74        <meta-data
+74-->[com.facebook.soloader:soloader:0.10.5] /Users/iresh13/.gradle/caches/transforms-3/2d5797c4a92f7f30003d93881719dc6d/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+75            android:name="com.facebook.soloader.enabled"
+75-->[com.facebook.soloader:soloader:0.10.5] /Users/iresh13/.gradle/caches/transforms-3/2d5797c4a92f7f30003d93881719dc6d/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+76            android:value="false" />
+76-->[com.facebook.soloader:soloader:0.10.5] /Users/iresh13/.gradle/caches/transforms-3/2d5797c4a92f7f30003d93881719dc6d/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+77
+78        <provider
+78-->[androidx.emoji2:emoji2:1.0.0] /Users/iresh13/.gradle/caches/transforms-3/ae384a54099eef655e194550d874fa72/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+79            android:name="androidx.startup.InitializationProvider"
+79-->[androidx.emoji2:emoji2:1.0.0] /Users/iresh13/.gradle/caches/transforms-3/ae384a54099eef655e194550d874fa72/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+80            android:authorities="com.ireshproject.androidx-startup"
+80-->[androidx.emoji2:emoji2:1.0.0] /Users/iresh13/.gradle/caches/transforms-3/ae384a54099eef655e194550d874fa72/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+81            android:exported="false" >
+81-->[androidx.emoji2:emoji2:1.0.0] /Users/iresh13/.gradle/caches/transforms-3/ae384a54099eef655e194550d874fa72/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+82            <meta-data
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/iresh13/.gradle/caches/transforms-3/ae384a54099eef655e194550d874fa72/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+83                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+83-->[androidx.emoji2:emoji2:1.0.0] /Users/iresh13/.gradle/caches/transforms-3/ae384a54099eef655e194550d874fa72/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+84                android:value="androidx.startup" />
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/iresh13/.gradle/caches/transforms-3/ae384a54099eef655e194550d874fa72/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+85            <meta-data
+85-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iresh13/.gradle/caches/transforms-3/4b152a466ee375d923a68d75da8c10bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iresh13/.gradle/caches/transforms-3/4b152a466ee375d923a68d75da8c10bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+87                android:value="androidx.startup" />
+87-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/iresh13/.gradle/caches/transforms-3/4b152a466ee375d923a68d75da8c10bf/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+88        </provider>
+89    </application>
+90
+91</manifest>

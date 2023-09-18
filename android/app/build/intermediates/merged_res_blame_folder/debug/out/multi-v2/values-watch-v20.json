@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.ireshproject.app-mergeDebugResources-36:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/iresh13/.gradle/caches/transforms-3/289e321741b4d1cef739af3a0a6f62bc/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+current directory: /Users/iresh13/RN/Iresh/IreshProject/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+/Users/iresh13/.rvm/rubies/ruby-2.7.5/bin/ruby -I /Users/iresh13/.rvm/rubies/ruby-2.7.5/lib/ruby/2.7.0 -r ./siteconf20230624-34062-1ctw1n9.rb extconf.rb
+creating Makefile
+
+current directory: /Users/iresh13/RN/Iresh/IreshProject/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/iresh13/RN/Iresh/IreshProject/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/iresh13/RN/Iresh/IreshProject/vendor/bundle/ruby/2.7.0/gems/json-2.6.3/ext/json
+make "DESTDIR=" install
