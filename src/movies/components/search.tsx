@@ -7,7 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import {useSelector} from 'react-redux';
-import React, {useEffect, useState} from 'react';
+import React, {MutableRefObject, useEffect, useRef, useState} from 'react';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 
 import GenericText from '../../app/ui/text';
@@ -39,6 +39,8 @@ const SearchMovie = ({componentId}: IProps) => {
   const [showButton, setShowButton] = useState<boolean>(false);
   const [selectedDate, setSelectedDate] = useState<string>('');
   const [selectedRating, setSelectedRating] = useState<string>('');
+
+  const textInputRef = useRef<typeof TextInput | null>(null);
 
   const onSearchInput = (input: string) => {
     const newResult = movies.filter((movie: IMovies) => {
@@ -105,6 +107,8 @@ const SearchMovie = ({componentId}: IProps) => {
         return getRatedMovies(movie);
       }
     });
+
+    textInputRef?.current?.clear();
 
     resetRating();
     resetDate();
@@ -218,6 +222,7 @@ const SearchMovie = ({componentId}: IProps) => {
 
       <View style={styles.row}>
         <TextInput
+          ref={textInputRef}
           style={styles.textInput}
           placeholder="Search Movie"
           placeholderTextColor={COLORS.BAR_COLOR}

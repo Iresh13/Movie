@@ -1,11 +1,12 @@
+import React from 'react';
+import FastImage from 'react-native-fast-image';
 import {
   View,
-  Image,
   Dimensions,
   StyleSheet,
   TouchableOpacity,
+  Image,
 } from 'react-native';
-import React from 'react';
 
 import GenericText from '../../app/ui/text';
 import {IMovies} from '../../app/app.types';
@@ -39,7 +40,23 @@ const MoviesComponent = ({movie, componentId, isModal = false}: IProps) => {
       {movie.title ? (
         <TouchableOpacity style={styles.main} onPress={goToDetails}>
           <View style={styles.image}>
-            <Image source={{uri: imagePath}} style={styles.image} />
+            {movie.poster_path ? (
+              <FastImage
+                style={styles.image}
+                source={{
+                  uri: imagePath,
+                  priority: FastImage.priority.normal,
+                }}
+                resizeMode={FastImage.resizeMode.stretch}
+              />
+            ) : (
+              <Image
+                style={[styles.image, {resizeMode: 'center'}]}
+                source={{
+                  uri: 'icon',
+                }}
+              />
+            )}
           </View>
           <GenericText
             variation="bold"
