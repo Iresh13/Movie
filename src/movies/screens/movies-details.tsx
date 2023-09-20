@@ -151,7 +151,9 @@ const MovieDetail = ({componentId, id}: IProps) => {
           })}
         </ImageBackground>
       ) : (
-        <ActivityIndicator size="small" color={COLORS.GREEN} />
+        <View style={styles.centerWrapper}>
+          <ActivityIndicator size="small" color={COLORS.GREEN} />
+        </View>
       )}
     </ScrollView>
   );
@@ -161,6 +163,7 @@ const styles = StyleSheet.create({
   main: {
     paddingTop: 20,
   },
+  centerWrapper: {justifyContent: 'center', alignItems: 'center', flex: 1},
   image: {height: 250, width: 300, marginBottom: 10, resizeMode: 'stretch'},
   logo: {height: 20, width: 30, marginBottom: 10, resizeMode: 'stretch'},
   text: {
@@ -178,7 +181,7 @@ const styles = StyleSheet.create({
     paddingTop: 20,
     borderRadius: 10,
     paddingBottom: 40,
-    height: height * 1.2,
+    height: height * 1.5,
     paddingHorizontal: 20,
     resizeMode: 'stretch',
   },
