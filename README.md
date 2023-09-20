@@ -4,7 +4,7 @@
 
 1. Open a terminal or command prompt and navigate to the directory. Then run following command
 ```bash
-git clone https://github.com/Iresh13/Movie.git from dev branch.
+git clone https://github.com/Iresh13/Movie.git
 ```
 2. Install the dependencies from packages.json file.
 ```bash
