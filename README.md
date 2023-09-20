@@ -30,5 +30,3 @@ The app initially shows all the list of Tom Cruise movies. When a user presses t
 - `Redux-persist`: Redux Persist is a library that enables persistent storing and rehydration of the Redux state. It complements Redux and offers a straightforward API to maintain Redux store data over page refreshes, app restarts, or device reboots.
 - `Axios`: Axios is a promise-based HTTP Client for React Native apps and the browser.
 - `Moment.js`: Moment.js is a library for parsing, formatting, and manipulating dates and times in JavaScript.
-
-A better formatting will make a good impression to the reviewers.
